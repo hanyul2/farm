@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: gro_layer
+    uniqueID: 3448868915
+    locked: 0
+  - name: str_layer
+    uniqueID: 2103403081
+    locked: 0
+  - name: cave_layer
+    uniqueID: 3677082905
+    locked: 0
+  - name: gosow_lawer
+    uniqueID: 1401690001
+    locked: 0
