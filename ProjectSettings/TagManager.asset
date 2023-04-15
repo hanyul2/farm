@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - cave
+  - chest
+  - ojingeo
+  - weakest tree
   layers:
   - Default
   - TransparentFX
@@ -52,4 +56,7 @@ TagManager:
     locked: 0
   - name: gosow_lawer
     uniqueID: 1401690001
+    locked: 0
+  - name: weak_layer
+    uniqueID: 2043293467
     locked: 0
