@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cave.unity
     guid: fdcac43de3a5ac149802dc4ef105a6b6
+  - enabled: 1
+    path: Assets/Scenes/shooting.unity
+    guid: 57217a804fa1cfd49a360ee4153b4426
   m_configObjects: {}
