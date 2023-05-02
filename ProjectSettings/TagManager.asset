@@ -10,6 +10,8 @@ TagManager:
   - weakest tree
   - ImNotABat
   - fish
+  - bullet
+  - battery
   layers:
   - Default
   - TransparentFX
