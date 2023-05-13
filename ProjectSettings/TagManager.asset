@@ -12,6 +12,9 @@ TagManager:
   - fish
   - bullet
   - battery
+  - player
+  - nabang
+  - canation
   layers:
   - Default
   - TransparentFX
@@ -19,8 +22,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - CHINESEBLUEBUG
+  - CHINESENABANG
   - 
   - 
   - 

@@ -7,9 +7,11 @@ public class shooting : MonoBehaviour
     // Start is called before the first frame update
     public GameObject bullet;
     bool cooltime = false;
+    public List<GameObject> Bullets = new List<GameObject>();
+    int PowerLevel;
     void Start()
     {
-        
+        PowerLevel = 0;
     }
 
     // Update is called once per frame
@@ -33,21 +35,24 @@ public class shooting : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && cooltime == false)
         {
-            Instantiate(bullet, transform.position,Quaternion.identity);
+            Instantiate(Bullets[PowerLevel], transform.position,Quaternion.identity);
             cooltime = true;
             StartCoroutine(SetCooltime());
         }
     }
     IEnumerator SetCooltime()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
         cooltime = false;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "battery")
         {
-            bullet.GetComponent<shoooting>().damage += 3;
+            if (Bullets.Count > PowerLevel)
+            {
+                PowerLevel += 1;
+            }
             Destroy(collision.gameObject);
         }
     }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class shoooting : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int damage = 5;
+    public int damage;
     void Start()
     {
         
