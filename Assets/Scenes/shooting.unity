@@ -4167,7 +4167,7 @@ GameObject:
   - component: {fileID: 909268465}
   - component: {fileID: 909268464}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Sanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9795,7 +9795,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.045942903, y: -0.07380319}
+  m_Offset: {x: -0.061539903, y: -0.07380319}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9806,7 +9806,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.56109643, y: 0.48337793}
+  m_Size: {x: 0.67134726, y: 0.48337793}
   m_EdgeRadius: 0
 --- !u!50 &1864279001
 Rigidbody2D:

@@ -20,7 +20,6 @@ public class BUHWAL : MonoBehaviour
     {
         SceneManager.LoadScene("shooting");
         Time.timeScale = 1;
-        Debug.Log("∫Œ»∞");
         GameObject.Find("eareum").GetComponent<Attacked>().PH = 10;
     }
 }

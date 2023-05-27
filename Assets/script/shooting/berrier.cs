@@ -19,7 +19,7 @@ public class berrier : MonoBehaviour
     {
         if (collision.gameObject.tag == "nabang")
         {
-            GameObject.Find("Canvas").transform.GetChild(0).gameObject.SetActive(true);
+            GameObject.Find("Sanvas").transform.GetChild(0).gameObject.SetActive(true);
             Time.timeScale = 0;
         }
     }

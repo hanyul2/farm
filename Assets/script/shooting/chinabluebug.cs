@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class chinabluebug : MonoBehaviour
 {
@@ -42,13 +43,15 @@ public class chinabluebug : MonoBehaviour
             {
                 Destroy(e);
             }
+            GameObject.Find("GameManager").gameObject.GetComponent<AllGameControl>().IsShootingClear = true;
+            SceneManager.LoadScene("SampleScene");
         }
     }
     void Attack()
     {
         if (coltime == false)
         {
-            var TMP = Instantiate(warn, Player.transform.position, Quaternion.identity);
+            var TMP = Instantiate(warn, new Vector2(Player.transform.position.x + 2, Player.transform.position.y), Quaternion.identity);
             coltime = true;
             StartCoroutine(SetColtime());
         }

@@ -10,7 +10,7 @@ public class Attacked : MonoBehaviour
     void Start()
     {
         PH = 10;
-        SLYJ = GameObject.Find("Canvas").transform.GetChild(0).gameObject;
+        SLYJ = GameObject.Find("Sanvas").transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame

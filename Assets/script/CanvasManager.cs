@@ -5,7 +5,7 @@ using UnityEngine;
 public class CanvasManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Awake()
+    private void OnEnable()
     {
         var canva = FindObjectsOfType<InvetorySave>();
         if (canva.Length == 1)

@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   P1: {fileID: 21300000, guid: abc993d5312f4ec48bbb6007e277fc79, type: 3}
-  P2: {fileID: 21300000, guid: a0324f8b39203c64f827270cc64a2347, type: 3}
+  P2: {fileID: 21300000, guid: 36d206b9e421e004f93b55bce0327db1, type: 3}
   Redbox: {fileID: 402417405817987910}
 --- !u!61 &1437150361934619391
 BoxCollider2D:

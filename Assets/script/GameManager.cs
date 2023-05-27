@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Awake()
+    private void OnEnable()
     {
         var player = FindObjectsOfType<GoIntoCave>();
         if (player.Length == 1)

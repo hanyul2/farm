@@ -32,5 +32,9 @@ public class simgi : MonoBehaviour
                 Invetory1.SetActive(false);
             }
         }
+        if (collision.gameObject.tag == "success" && Invetoryi1.activeSelf == false && Invetory1.activeSelf == false)
+        {
+            GameObject.Find("Canvas").transform.GetChild(8).gameObject.SetActive(true);
+        }
     }
 }
