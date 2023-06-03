@@ -17,12 +17,12 @@ public class CAMERAMOV : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             gameObject.transform.Translate(new Vector2(1 * Time.deltaTime, 0));
-            j.pos += new Vector3(1 * Time.deltaTime, 0, 0);
+            //j.pos += new Vector3(1 * Time.deltaTime, 0, 0);
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             gameObject.transform.Translate(new Vector2(-1 * Time.deltaTime, 0));
-            j.pos += new Vector3(-1 * Time.deltaTime, 0, 0);
+            //j.pos += new Vector3(-1 * Time.deltaTime, 0, 0);
         }
     }
 }
