@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
-
 public class JEONDEUNG : MonoBehaviour
 {
     // Start is called before the first frame update
