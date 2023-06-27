@@ -66,12 +66,12 @@ public class moving : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "ground" || collision.gameObject.tag == "special_ground")
+        if (collision.gameObject.tag == "ground")
         {
             isJumping = false;
             if (isJumping == false)
             {
-                jumpForce = 5.0f;
+                jumpForce = 10.0f;
             }
         }
     }
