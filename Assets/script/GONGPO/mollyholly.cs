@@ -21,7 +21,7 @@ public class mollyholly : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.Translate(new Vector2(-4 * Time.deltaTime, 0));
+        gameObject.transform.Translate(new Vector2(-5 * Time.deltaTime, 0));
     }
     IEnumerator changeframe()
     {
