@@ -18,6 +18,7 @@ TagManager:
   - chonjang
   - success
   - ground
+  - MONSTER
   layers:
   - Default
   - TransparentFX
