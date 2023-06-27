@@ -51,8 +51,8 @@ public class moving : MonoBehaviour
             transform.forward * Input.GetAxis("Vertical") +
             transform.right * Input.GetAxis("Horizontal");
 
-        move = new Vector3(move.x, 0, move.z);
-        body.velocity = move * moveSpeed;
+        move = new Vector3(move.x * moveSpeed, body.velocity.y, move.z * moveSpeed);
+        body.velocity = move;
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -71,7 +71,7 @@ public class moving : MonoBehaviour
             isJumping = false;
             if (isJumping == false)
             {
-                jumpForce = 10.0f;
+                jumpForce = 5.0f;
             }
         }
     }
