@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Runtime.CompilerServices;
+using UnityEngine.SceneManagement;
 
 public class hollymolly : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class hollymolly : MonoBehaviour
     void Start()
     {
         ojingeo = GameObject.Find("Canvas").transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>();
+        T = "";
     }
 
     // Update is called once per frame
@@ -73,7 +75,8 @@ public class hollymolly : MonoBehaviour
             ojingeo.text = T;
             if (T == "3456")
             {
-                T = "suc";
+                T = "success";
+                SceneManager.LoadScene("4D");
             }
         }
     }

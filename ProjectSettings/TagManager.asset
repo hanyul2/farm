@@ -19,6 +19,7 @@ TagManager:
   - success
   - ground
   - MONSTER
+  - NAGA
   layers:
   - Default
   - TransparentFX

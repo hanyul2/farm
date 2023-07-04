@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class die : MonoBehaviour
+public class asdf : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject youdie;
     void Start()
     {
         
@@ -14,13 +13,6 @@ public class die : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-       if (collision.gameObject.tag == "MONSTER")
-       {
-            youdie.SetActive(true);
-       }
+        gameObject.transform.Translate(new Vector2(-5 * Time.deltaTime, 0));
     }
 }

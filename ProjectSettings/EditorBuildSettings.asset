@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GONGPO.unity
     guid: 10cf116a1aca1da44ad218ea658c8b32
+  - enabled: 1
+    path: Assets/Scenes/4D.unity
+    guid: a489943e1a9c3d94ebbc7502b303931f
   m_configObjects: {}

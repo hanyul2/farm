@@ -1063,6 +1063,7 @@ GameObject:
   - component: {fileID: 309304634}
   - component: {fileID: 309304635}
   - component: {fileID: 309304636}
+  - component: {fileID: 309304637}
   m_Layer: 0
   m_Name: GoSoy
   m_TagString: Untagged
@@ -1282,6 +1283,21 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 9bb8f1ebc77502241ad1f1ac35aa90f0, type: 3}
   - {fileID: 21300000, guid: 83867c02bc4ec624e9cfde238bda30a8, type: 3}
   - {fileID: 21300000, guid: 53bd59605ebfc57458781c67b6733908, type: 3}
+--- !u!114 &309304637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309304623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fbcaa83105086a45993586df1e222ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  qwer: {fileID: 1494868017}
+  zxcv: {fileID: 990955608}
+  qaz: {fileID: 363786691}
 --- !u!1 &359117184
 GameObject:
   m_ObjectHideFlags: 0
@@ -7774,7 +7790,6 @@ GameObject:
   m_Component:
   - component: {fileID: 833154325}
   - component: {fileID: 833154324}
-  - component: {fileID: 833154323}
   m_Layer: 0
   m_Name: pixil-frame-0 - 2023-05-23T211113.123 (2)
   m_TagString: Untagged
@@ -7782,32 +7797,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &833154323
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833154322}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.08028221}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.40361595}
-  m_EdgeRadius: 0
 --- !u!212 &833154324
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8099,7 +8088,7 @@ GameObject:
   - component: {fileID: 911562291}
   m_Layer: 0
   m_Name: pixil-frame-0 - 2023-05-23T213411.007
-  m_TagString: Untagged
+  m_TagString: NAGA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40065,7 +40054,6 @@ GameObject:
   m_Component:
   - component: {fileID: 973691834}
   - component: {fileID: 973691833}
-  - component: {fileID: 973691832}
   m_Layer: 0
   m_Name: pixil-frame-0 - 2023-05-23T211352.640 (2)
   m_TagString: Untagged
@@ -40073,32 +40061,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &973691832
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973691831}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.062419057, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.16454768, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &973691833
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40361,7 +40323,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1099746422}
   - component: {fileID: 1099746421}
-  - component: {fileID: 1099746420}
   m_Layer: 0
   m_Name: pixil-frame-0 - 2023-05-23T211113.123 (1)
   m_TagString: Untagged
@@ -40369,32 +40330,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1099746420
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099746419}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.08219385}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.40743923}
-  m_EdgeRadius: 0
 --- !u!212 &1099746421
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40598,7 +40533,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1410279787}
   - component: {fileID: 1410279786}
-  - component: {fileID: 1410279785}
   m_Layer: 0
   m_Name: pixil-frame-0 - 2023-05-23T211352.640 (1)
   m_TagString: Untagged
@@ -40606,32 +40540,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1410279785
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1410279784}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.059542656, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.16217518, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &1410279786
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -41257,7 +41165,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1741910602}
   - component: {fileID: 1741910601}
-  - component: {fileID: 1741910600}
   m_Layer: 0
   m_Name: pixil-frame-0 - 2023-05-23T211352.640
   m_TagString: Untagged
@@ -41265,32 +41172,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1741910600
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741910599}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.05953598, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.16853523, y: 1}
-  m_EdgeRadius: 0
 --- !u!212 &1741910601
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -41580,7 +41461,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1818618182}
   - component: {fileID: 1818618181}
-  - component: {fileID: 1818618180}
   m_Layer: 0
   m_Name: pixil-frame-0 - 2023-05-23T211113.123
   m_TagString: Untagged
@@ -41588,32 +41468,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1818618180
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1818618179}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.08028221}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.3959694}
-  m_EdgeRadius: 0
 --- !u!212 &1818618181
 SpriteRenderer:
   m_ObjectHideFlags: 0
